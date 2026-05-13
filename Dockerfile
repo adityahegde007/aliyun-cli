@@ -18,5 +18,4 @@ USER userali
 HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
     CMD aliyun version || exit 1
 
-ENTRYPOINT ["aliyun"]
 
